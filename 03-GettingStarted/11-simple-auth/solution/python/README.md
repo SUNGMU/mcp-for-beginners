@@ -4,13 +4,13 @@
 
 ```sh
 python -m venv venv
-source ./venv/bin/activate
+venv\Scripts\activate
 ```
 
 ## Install dependencies
 
 ```sh
-pip install "mcp[cli]" dotenv PyJWT requeests
+pip install "mcp[cli]" python-dotenv PyJWT requeests
 ```
 
 ## Generate token
